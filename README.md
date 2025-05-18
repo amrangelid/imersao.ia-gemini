@@ -66,13 +66,13 @@ graph TD
   •	Responsabilidade Principal: O cérebro analítico do sistema. Realizar o cruzamento das informações coletadas pelos outros agentes.
   •	Tarefas: 
     -	Comparar as habilidades desenvolvidas pelo currículo alvo com as habilidades demandadas pelo mercado (identificadas pelo Agente de Inteligência de Mercado). 
-      	Identificar GAPs: Habilidades demandadas pelo mercado, mas não cobertas (ou pouco cobertas) pelo currículo.
-      	Identificar Excedentes: Habilidades cobertas pelo currículo, mas com baixa demanda no mercado.
-      	Identificar Pontos Fortes: Habilidades bem cobertas e em alta demanda.
+      .	Identificar GAPs: Habilidades demandadas pelo mercado, mas não cobertas (ou pouco cobertas) pelo currículo.
+      .	Identificar Excedentes: Habilidades cobertas pelo currículo, mas com baixa demanda no mercado.
+      .	Identificar Pontos Fortes: Habilidades bem cobertas e em alta demanda.
     -	Comparar o currículo alvo com os currículos dos concorrentes. 
-      	Identificar diferenciais positivos (onde o curso alvo é melhor/mais completo).
-      	Identificar desvantagens (onde os concorrentes oferecem algo que o curso alvo não tem).
-      	Analisar o alinhamento geral de cada curso com as demandas do mercado.
+      .	Identificar diferenciais positivos (onde o curso alvo é melhor/mais completo).
+      .	Identificar desvantagens (onde os concorrentes oferecem algo que o curso alvo não tem).
+      .	Analisar o alinhamento geral de cada curso com as demandas do mercado.
   •	Como Gemini pode ajudar: 
     -	Raciocínio e Análise Lógica: Comparar listas de habilidades, identificar sobreposições e diferenças.
     -	Análise Semântica: Entender que "Desenvolvimento Ágil" e "Scrum" estão relacionados, mesmo que escritos de forma diferente. Modelos de embedding podem ser úteis para calcular similaridade semântica entre descrições de habilidades.
@@ -85,10 +85,10 @@ graph TD
     -	Estruturar um relatório claro, com seções distintas (aderência ao mercado, análise de competências, comparativo com concorrência).
     -	Apresentar os achados de forma visual ou textual clara (gráficos poderiam ser uma extensão, mas um bom texto já é valioso).
     -	Gerar recomendações concretas para aprimoramento do currículo alvo, como: 
-      	Sugestão de inclusão de novas disciplinas/tópicos.
-      	Atualização de ementas existentes.
-      	Ênfase em certas habilidades.
-      	Possíveis nichos de mercado a explorar.
+      .	Sugestão de inclusão de novas disciplinas/tópicos.
+      .	Atualização de ementas existentes.
+      .	Ênfase em certas habilidades.
+      .	Possíveis nichos de mercado a explorar.
   •	Como Gemini pode ajudar: 
     -	Geração de Texto Avançada: Redigir o relatório final de forma coesa, profissional e persuasiva, utilizando as informações fornecidas pelo "Agente de Mapeamento e Diagnóstico".
     -	Sumarização: Resumir os pontos chave da análise.
@@ -102,4 +102,3 @@ Agente Orquestrador (Opcional, mas recomendado):
     -	Chamar cada agente na ordem correta.
     -	Passar os dados de output de um agente como input para o próximo.
     -	Formatar e apresentar o resultado final.
-
