@@ -5,8 +5,8 @@ Projeto "MentorIA Curricular: Seu currículo alinhado ao futuro do mercado”.
 
 "Com MentorIA Curricular, use multiagentes de IA para criar ou otimizar o currículo do seu curso, alinhando-o às demandas do mercado e à concorrência. Estudantes também podem validar a relevância da sua formação."
 
-graph TD
-    A[Início: Input do Usuário<br>(Currículo do Curso Alvo, Área de Estudo, Concorrentes Opcionais)] --> B(Agente Orquestrador);
+graph TD 
+    A [Início: Input do Usuário<br>(Currículo do Curso Alvo, Área de Estudo, Concorrentes Opcionais)] --> B(Agente Orquestrador);
 
     B -- Detalhes do Curso Alvo --> C(1. Agente Analista de Currículo Alvo);
     C -- Estrutura e Habilidades do Currículo Alvo --> F;
